@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Mapper::url("/${1:url}"${2:, true});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>map</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

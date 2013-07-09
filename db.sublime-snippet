@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+Config::write("database", array(
+  "development" => array(
+    "driver" => "mysql",
+    "host" => "localhost",
+    "user" => "root",
+    "password" => "piano1111",
+    "database" => "${1:dbname}_development",
+    "prefix" => ""
+  ),
+  "testing" => array(
+    "driver" => "mysql",
+    "host" => "localhost",
+    "user" => "prog3_test",
+    "password" => "Walmir@1111",
+    "database" => "prog3_${1:dbname}",
+    "prefix" => ""
+  ),
+  "production" => array(
+    "driver" => "",
+    "host" => "",
+    "user" => "",
+    "password" => "",
+    "database" => "",
+    "prefix" => ""
+  )
+));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>db</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

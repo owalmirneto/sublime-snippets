@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<?php if (${1:$a}s): ?>
+  <?php foreach (${1:$a}s as \$key => ${1:$a}): ?>
+    ${2:$b}
+  <?php endforeach ?>
+<?php else: ?>
+  <p class="alert"><b>Atention!</b> record not found.</p>
+<?php endif ?>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>iffor</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+public function index() {
+  \$paginate_array = array(
+      'perPage' => Config::read('app.conv.perpage'),
+      'page' => \$this->page(),
+      'conditions' => array()
+  );
+  # Mount SQL Fields to search products
+  if (\$this->param('q')):
+    \$string = '%' . strip_tags(\$this->param('q')) . '%';
+    foreach (\$this->${1:Model}->searchableFields as \$field):
+      \$paginate_array['conditions']['or'][\$field . ' LIKE'] = \$string;
+    endforeach;
+  endif;
+  \$this->arrView['${2:results}'] = \$this->${1:Model}->paginate(\$paginate_array);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>index</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.php</scope> -->
+</snippet>
