@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[
-<?php if (empty(\$${1:collection})): ?>${3:
-  <?php echo \$flash->${4:warning}('${5:record not found.}'); ?>
-<?php else: ?>}
+<?php if (has_data(\$${1:collection})): ?>
   <?php foreach (\$${1:collection} as \$key => \$${2:member}): ?>
     <?php pr(\$${2:member}) ?>
   <?php endforeach ?>
+${3:<?php else: ?>
+  <?php echo \$flash->${4:info}('${5:record not found.}'); ?>}
 <?php endif ?>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
