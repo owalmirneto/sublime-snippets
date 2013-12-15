@@ -1,12 +1,17 @@
 {
 	"font_face": "Source Code Pro",
+<<<<<<< HEAD
 	"font_size": 15,
+=======
+	"font_size": 12,
+>>>>>>> 0553236f9cd5cfc484fdc26c8eca691dd25e4c36
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"word_wrap": false
 }
