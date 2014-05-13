@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+transition:all ${1:time_transition}s ease-in-out;
+-moz-transition:all ${1:time_transition}s ease-in-out;
+-webkit-transition:all ${1:time_transition}s ease-in-out;
+-o-transition:all ${1:time_transition}s ease-in-out;
+-ms-transition:all ${1:time_transition}s ease-in-out;
+]]></content>
+
+	<tabTrigger>transition</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css, source.css.less</scope>
+</snippet>

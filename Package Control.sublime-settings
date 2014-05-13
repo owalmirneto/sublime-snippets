@@ -1,15 +1,18 @@
 {
-	"installed_packages":
-	[
-		"CoffeeComplete Plus (Autocompletion)",
-		"CoffeeScript",
-		"Emmet",
-		"Github Tools",
-		"LESS",
-		"Meld diff",
-		"Package Control",
-		"SFTP",
-		"Syntax Highlighting for Sass",
-		"TrailingSpaces"
-	]
+  "installed_packages":
+  [
+    "CoffeeComplete Plus (Autocompletion)",
+    "CoffeeScript",
+    "Emmet",
+    "LESS",
+    "Meld diff",
+    "Package Control",
+    "SFTP",
+    "Syntax Highlighting for Sass",
+    "TrailingSpaces",
+    "EditorConfig",
+    "Meld diff",
+    "Shell Turtlestein",
+    "AutoFileName"
+  ]
 }

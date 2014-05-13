@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:echo }\$html->script(${2:array("${3:filename}")}, ${4:array(),} ${5:false});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.htm</scope> -->
+</snippet>

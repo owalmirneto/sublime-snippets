@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<section id="${1:id_section}" class="${2}">
+	${3:content_section}
+</section><!-- ${1:id_section} -->
+]]></content>
+
+	<tabTrigger>section</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

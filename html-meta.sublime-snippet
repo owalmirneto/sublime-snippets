@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<meta name="language" content="pt-br" />
+<meta name="resource-type" content="document" />
+<meta name="author" content="Pianolab">
+<meta name="description" content="${1:description_site}" />
+<meta name="keywords" content="${2:tags_site}" />
+<meta name="classification" content="Internet" />
+<meta name="googlebot" content="all" />
+<meta name="copyright" content="Pianolab" />
+<meta name="url" content="${3:url_site}" />
+]]></content>
+
+	<tabTrigger>meta</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

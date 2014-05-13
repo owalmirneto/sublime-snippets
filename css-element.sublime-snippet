@@ -1,9 +1,11 @@
 <snippet>
   <content><![CDATA[
-<?php echo \$this->element('${1:folder}/${2:element}', array("${3:}" => \$${3})); ?>
+${1:element}{
+  ${2:propriedades}
+}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>elem</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.python</scope> -->
+  <scope>source.css, source.css.less</scope>
 </snippet>

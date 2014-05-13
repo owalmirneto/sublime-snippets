@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+\$.ajax({
+  url: root_url + "/${1:url}",
+  type: "${2:get}",
+  ${3:data: \{ key: value \},}
+  success: function (${4:response}) {
+    \$(${5:seletor}).html(${4:response});
+  }
+})
+.fail( function () {
+  ${6:console.log("An error occurred");}
+})
+.always( function () {
+  ${7:console.log("Request completed");}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
