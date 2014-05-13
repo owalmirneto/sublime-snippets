@@ -1,18 +1,18 @@
 {
   "installed_packages":
   [
+    "AutoFileName",
     "CoffeeComplete Plus (Autocompletion)",
     "CoffeeScript",
+    "EditorConfig",
     "Emmet",
+    "Emmet Css Snippets",
     "LESS",
     "Meld diff",
     "Package Control",
     "SFTP",
-    "Syntax Highlighting for Sass",
-    "TrailingSpaces",
-    "EditorConfig",
-    "Meld diff",
     "Shell Turtlestein",
-    "AutoFileName"
+    "Syntax Highlighting for Sass",
+    "TrailingSpaces"
   ]
 }
