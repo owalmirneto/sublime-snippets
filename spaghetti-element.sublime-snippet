@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<?php echo \$this->element('${1:folder}/${2:element}', array("${3:}" => \$${3})); ?>
+<?php echo \$this->element("${1:folder}/${2:element}", array("${3:}" => \$${3})); ?>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>elem</tabTrigger>

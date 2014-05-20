@@ -5,7 +5,7 @@
     <?php pr(\$${2:member}) ?>
   <?php endforeach ?>
 ${3:<?php else: ?>
-  <?php echo \$flash->${4:info}('${5:record not found.}'); ?>}
+  <?php echo \$flash->${4:info}("${5:record not found.}"); ?>}
 <?php endif ?>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

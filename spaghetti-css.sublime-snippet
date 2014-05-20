@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<?php ${1:echo }\$html->stylesheet(${2:array('${3:filename}')}, ${4:array(),} ${5:false}); ?>
+<?php ${1:echo }\$html->stylesheet(${2:array("${3:filename}")}, ${4:array(),} ${5:false}); ?>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>css</tabTrigger>

@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 pr(${1:$a});
-pr(str_replace(APP, null, __FILE__) . '~>' . __LINE__);die;
+pr(str_replace(APP, null, __FILE__) . "~>" . __LINE__);die;
 ]]></content>
   <tabTrigger>pr</tabTrigger>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
