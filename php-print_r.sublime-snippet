@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-echo "<pre>";
+echo '<pre>';
 print_r(${1:$a});
-print_r(basename(__FILE__) . ":" . __LINE__);die;
+print_r('<hr />' . basename(__FILE__) . ":" . __LINE__);die;
 ]]></content>
   <tabTrigger>pr</tabTrigger>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
