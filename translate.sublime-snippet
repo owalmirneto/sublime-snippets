@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?php echo t("${1: text}"); ?>
+{{ trans("${1: text}") }}
 ]]></content>
 	<tabTrigger>t</tabTrigger>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-@if (\$${1:collection}->isEmpty())
-  ${2:<div class="alert alert-info"><b>${3:Atenção}!</b> ${4:Registro não encontrado.}</div>
-@else}
-  {{ 'ok' }}
-@endif
+public function ${1:action}()
+{
+    \$${2:var} = $this->repository->${3:all}();
+    return \View::make('${4:view/index}')->with('${2:var}', \$${2:var});
+}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>if</tabTrigger>
+  <tabTrigger>action</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
 </snippet>

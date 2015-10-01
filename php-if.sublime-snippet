@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-if (has_data(\$${1:collection})) \{
+if (\$${1:collection}) \{
   # code
 ${2:\}
 else \{

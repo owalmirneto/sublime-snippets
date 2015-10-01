@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-<?php if (has_data(\$${1:collection})): ?>
-  <?php foreach (\$${1:collection} as \$key => \$${2:member}): ?>
-    <?php pr(\$${2:member}) ?>
-  <?php endforeach ?>
-${3:<?php else: ?>
-  <?php echo \$flash->${4:info}("${5:record not found.}"); ?>}
-<?php endif ?>
+@if (\$${1:collection}->isEmpty())
+  ${2:<div class="alert alert-info"><b>${3:Atenção}!</b> ${4:Registro não encontrado.}</div>
+@else}
+  @foreach (\$${1:collection} as \$key => \$${5:member})
+    {{ \$${5:member} }}
+  @endforeach
+@endif
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>iffor</tabTrigger>
