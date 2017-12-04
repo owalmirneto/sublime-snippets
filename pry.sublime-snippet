@@ -1,11 +1,8 @@
 <snippet>
-	<content><![CDATA[
-<?php echo \$html->link("${1:text}", "${2:url}"${3:, array("${4:class}" => "${5:current}")}) ?>
-]]></content>
-
-	<tabTrigger>link</tabTrigger>
+	<content>binding.pry</content>
+	<tabTrigger>pry</tabTrigger>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.ruby</scope>
 </snippet>
